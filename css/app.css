@@ -1,11 +1,59 @@
-.main-header{
+.main-header {
   background-color: #2C3E50;
 }
 
-.hero{
+.bg-green {
   background-color: #1ABC9C;
 }
 
-.hero img{
+.hero img {
   width: 230px;
+}
+
+.container-small {
+  width: 320px;
+  margin: 0 auto;
+}
+
+@media (min-width:992px) {
+  .container-small {
+    width: 700px;
+  }
+}
+
+@media (min-width:1200px) {
+  .container-small {
+    width: 970px;
+  }
+}
+
+.button-transp {
+  border: 1px solid white;
+  color: white;
+}
+
+form>input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  
+}
+
+textarea {
+  min-height: 150px;
+  margin-bottom: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+}
+
+input[type="submit"] {
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #1ABC9C;
+  border-radius: 10px;
+  color: white;
 }
