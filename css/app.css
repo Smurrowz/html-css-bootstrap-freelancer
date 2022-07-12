@@ -15,7 +15,7 @@
 .separator::before, .separator::after{
   display: inline-block;
   content: "";
-  width: 170px;
+  width: 120px;
   height: 4px;
   background-color: currentColor;
   
@@ -53,4 +53,25 @@ form >button{
 }
 .foot-pt-1{
 background-color:#3A546D;
+}
+
+.foot-pt-2{
+  font-size: 10px;
+}
+footer ul li svg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+footer ul li{
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+  
 }
